@@ -1,0 +1,139 @@
+.card {
+  width: 366px;
+  height: 356px;
+  border-radius: 4px;
+  padding: 24px, 16px, 24px, 16px;
+  margin: 16px;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+}
+
+.card:hover {
+  border: 2px solid #2196f3;
+  cursor: pointer;
+}
+.titleBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  font-family: Noto Sans KR Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  margin: 24px 0px 4px 16px;
+}
+.status {
+  margin: 24px 16px 4px 16px;
+  font-family: Noto Sans KR Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  justify-content: center;
+  width: 50px;
+  height: 20px;
+  color: #ffa000;
+  border: 1px solid #ffa000;
+  border-radius: 10px;
+}
+
+.client {
+  margin-left: 16px;
+  margin-bottom: 24px;
+  font-family: Noto Sans KR Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.due {
+  margin-left: 16px;
+  margin-top: 0px;
+
+  font-family: Noto Sans KR Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #939fa5;
+}
+
+.hrTag {
+  border: 1px solid #e5e5e5;
+  margin: 0px 16px 32px 16px;
+}
+
+.contentsBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contentsTitle {
+  width: 120px;
+  height: 20px;
+  font-family: Noto Sans KR Regular;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  margin: 0px 0px 8px 16px;
+}
+.contents {
+  width: 150px;
+  height: 20px;
+  font-family: Noto Sans KR Bold;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.buttonBox {
+  margin: 18px 20px 0px 16px;
+}
+.requestClick {
+  font-family: Noto Sans KR Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  border: #2196f3;
+  background: #2196f3;
+  color: white;
+  cursor: pointer;
+}
+
+.chatting {
+  font-family: Noto Sans KR Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #2196f3;
+  background: white;
+  color: #2196f3;
+  cursor: pointer;
+}

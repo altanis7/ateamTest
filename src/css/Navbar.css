@@ -1,0 +1,102 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background: #1565c0;
+  width: 100%;
+  height: 10vh;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navTitle {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 2%;
+}
+
+.navLogout {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 2%;
+}
+
+.hamburgerMenu {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    justify-content: flex-start;
+  }
+
+  .navTitle {
+    font-size: 1rem;
+  }
+
+  .navLogout {
+    display: none;
+  }
+
+  .hamburgerMenu {
+    display: flex;
+    margin-left: 3%;
+    cursor: pointer;
+  }
+
+  .modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modalContent {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+    border: 1px solid white;
+    width: 300px;
+    height: 100%;
+    align-items: center;
+    animation: move 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  }
+  @keyframes move {
+    0% {
+      transform: translateX(-300px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .modalTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1565c0;
+    z-index: 2;
+  }
+
+  .modalText {
+    margin-left: 5%;
+    margin-top: 20%;
+    font-weight: bold;
+    color: black;
+    z-index: 2;
+  }
+  .modalLogout {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-weight: bold;
+    color: black;
+    z-index: 2;
+  }
+}

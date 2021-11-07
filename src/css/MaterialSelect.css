@@ -1,0 +1,35 @@
+.materialSelect {
+  width: 98px;
+  height: 32px;
+  padding: 4px 12px;
+  border: 1px solid #939fa5;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.materialSelect:hover {
+  cursor: pointer;
+  border: 2px solid #2196f3;
+}
+
+.materialBox {
+  display: flex;
+  position: absolute;
+  top: 235px;
+  left: 235px;
+  z-index: 1px;
+  background: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 164px;
+  border: 1px solid #939fa5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.checkBoxArea {
+  width: 100px;
+  margin-bottom: 4px;
+}
